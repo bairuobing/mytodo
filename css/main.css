@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar, .header {
+    text-align: center;
+}
+
+.navbar {
+    background-color: #439766;
+    color: aliceblue;
+    padding: 10px 0;
+}
+
+.navbar h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.header {
+    color: black;
+    padding: 10px 0;
+    font-size: 18px;
+}
+.warp {
+    width: 500px;
+    margin: 0 auto;
+}
+input:focus, textarea:focus {
+    border: 1px solid #439766;
+}
+
+button.primary {
+    background: #277447;
+    color: #f7f3ea;
+}
+input, button, textarea{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    padding: 5px 10px;
+    
+}
+input, textarea {
+    outline: none;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
+}
+
+textarea {
+    resize: none;
+}
+
+input {
+    padding: 15px 5px;
+}
+
+#alert-sound {
+    display: none;
+}
+
+.task-list .item {
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.task-list .item button {
+    display: none;
+    font-size: 80%;
+    background: #fff;
+}
+
+.task-list .item:hover {
+    background: rgba(0, 0, 0, .03);
+}
+
+.task-list .item:hover button {
+    display: inline-block;
+}
+
+.task-list .item .title {
+    padding: 10px;
+}
+
+.task-list .item .detail {
+    display: block;
+    font-size: 80%;
+    color: #666;
+}
+
+.task-list .item > * {
+    padding: 5px;
+    display: inline-block;
+    line-height: 1.2;
+    vertical-align: middle;
+}
+
+.toggle-complete {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: #dff1e7;
+    border: 1px solid #9aa8a0;
+    border-radius: 50%;
+}
+
+.toggle-complete:hover {
+    background: #439766;
+    border-color: #25573a;
+}
+
+.completed .toggle-complete {
+    background: #ccc;
+    border-color: #bbb;
+}
+
+.segment-title {
+    color: rgb(53, 53, 53);
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: lighter;
+}
